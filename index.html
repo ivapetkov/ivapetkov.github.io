@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css" /> <!-- links the html with the css -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> <!-- link a font -->
+    <title>Kalyn Doe</title>  <!-- sets the title of the tab -->
+    <div id="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experiences</a>
+        <a href="#contact">Contact Me<a>
+    </div>
+    <div id="home">
+        <div class="home-text">Kalyn Doe</div>
+    </div>
+
+    <div id="about">
+         <div class="about-text">Hi! My name is _____ and I'm a ____ year ____ major at ______. I'm passionate about _____ and interested in pursuing _____ because _____.</div>
+
+    </div>
+
+    <div id="projects">
+    </div>
+
+    <div id="experience">
+    </div>
+
+    <div id="contact">
+    </div>
+
+
+
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+    </script>
+
+</html>
