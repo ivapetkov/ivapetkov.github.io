@@ -1,2 +1,2 @@
-# Iva Petkov's Porfolio
+# Iva Petkov's Portfolio
 Welcome to my portfolio.
