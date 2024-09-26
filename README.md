@@ -1,2 +1,2 @@
-# ivapetkov.github.io
-my website
+# Iva Petkov's Porfolio
+Welcome to my portfolio.
